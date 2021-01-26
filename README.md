@@ -1,6 +1,6 @@
 # Evaluation Tools
 
-Tools for retrieving and evaluating hydrological data.
+Tools for retrieving observed hydrological data.
 
 ## Motivation
 
@@ -42,7 +42,6 @@ Currently the repository has the following subpackages:
   Service](https://waterservices.usgs.gov/rest/IV-Service.html).
 - \_restclient: A generic REST client with built in cache that make the construction
   and retrieval of GET requests painless.
-- events: Variety of methods used to perform event-based evaluations of hydrometric time series.
 
 ## UTC Time
 
@@ -162,9 +161,6 @@ $ python3 -m pip install git+https://github.com/NOAA-OWP/evaluation_tools.git#su
 
 # Install _restclient
 $ python3 -m pip install git+https://github.com/NOAA-OWP/evaluation_tools.git#subdirectory=python/_restclient
-
-# Install events
-$ python3 -m pip install git+https://github.com/NOAA-OWP/evaluation_tools.git#subdirectory=python/events
 ```
 
 ## Documentation
