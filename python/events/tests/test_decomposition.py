@@ -1,9 +1,6 @@
 import pytest
 from evaluation_tools.events.event_detection import decomposition as ev
 
-import pandas as pd
-import numpy as np
-
 def test_list_events():
     # Create trend
     t = np.linspace(1.0, 1001.0, 1000)
